@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/Comi9/finlance-tools/compare/v1.0.0...v1.0.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* add new UI elements ([ff2a8b1](https://github.com/Comi9/finlance-tools/commit/ff2a8b19f3b14a9c8f719431443ad6c33ec4ac3c))
+* update UI component, test out versioning ([756707b](https://github.com/Comi9/finlance-tools/commit/756707bf01ced1e35e049cea869f5d17f1d9c484))
+
 ## 1.0.0 (2023-01-04)
 
 
