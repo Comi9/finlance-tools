@@ -66,6 +66,7 @@ export function Test() {
 
       <Container style={{ width: '300px' }}>
         <Slider
+          defaultValue={10}
           marks={[
             { value: 20, label: '20%' },
             { value: 50, label: '50%' },
