@@ -32,7 +32,7 @@ export function Test() {
       gap="md"
       justify="center"
       align="center"
-      direction="row"
+      direction="column"
       wrap="wrap">
       <div>
         <Flex justify="center">finlance.tools</Flex>
@@ -47,7 +47,7 @@ export function Test() {
           style={{ marginTop: 20, zIndex: 2 }}
           data={['React', 'Angular', 'Svelte', 'Vue']}
           placeholder="Pick one"
-          label="Your favorite library/framework"
+          label="Libs"
           classNames={classes}
         />
       </div>

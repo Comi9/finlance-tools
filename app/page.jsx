@@ -8,6 +8,12 @@ export default function Home() {
   return (
     <main>
       <Test />
+      <small>
+        <pre>
+          <strong>Version: </strong>
+          {process.env.npm_package_version}
+        </pre>
+      </small>
     </main>
   )
 }
