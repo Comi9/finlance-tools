@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import {
   createStyles,
   Flex,
@@ -33,7 +34,7 @@ const useStyles = createStyles(theme => ({
 export function Test() {
   // You can add these classes as classNames to any Mantine input, it will work the same
   const { classes } = useStyles()
-
+  const [value, setValue] = useState(40)
   return (
     <Flex
       mih={50}
@@ -67,12 +68,14 @@ export function Test() {
       <Container style={{ width: '300px' }}>
         <Slider
           defaultValue={10}
+          onChange={setValue}
           marks={[
             { value: 20, label: '20%' },
             { value: 50, label: '50%' },
             { value: 80, label: '80%' }
           ]}
         />
+        {value}
       </Container>
     </Flex>
   )
