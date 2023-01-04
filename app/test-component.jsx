@@ -1,6 +1,14 @@
 'use client'
 
-import { createStyles, Flex, Space, Select, TextInput } from '@mantine/core'
+import {
+  createStyles,
+  Flex,
+  Space,
+  Select,
+  TextInput,
+  Slider,
+  Container
+} from '@mantine/core'
 
 const useStyles = createStyles(theme => ({
   root: {
@@ -36,7 +44,9 @@ export function Test() {
       wrap="wrap">
       <div>
         <Flex justify="center">finlance.tools</Flex>
+
         <Space h="md" />
+
         <TextInput
           label="Shipping address"
           placeholder="15329 Huston 21st"
@@ -51,6 +61,18 @@ export function Test() {
           classNames={classes}
         />
       </div>
+
+      <Space h="md" />
+
+      <Container style={{ width: '300px' }}>
+        <Slider
+          marks={[
+            { value: 20, label: '20%' },
+            { value: 50, label: '50%' },
+            { value: 80, label: '80%' }
+          ]}
+        />
+      </Container>
     </Flex>
   )
 }

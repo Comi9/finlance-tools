@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <main>
       <Test />
-      <small>
+      <small
+        style={{ display: 'block', textAlign: 'center', paddingTop: '20px' }}>
         <pre>
           <strong>Version: </strong>
           {process.env.npm_package_version}
