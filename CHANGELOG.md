@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Comi9/finlance-tools/compare/v1.0.1...v1.0.2) (2023-01-04)
+
+
+### Bug Fixes
+
+* more UI changes ([9109600](https://github.com/Comi9/finlance-tools/commit/9109600a48b534cc162fc2e7124a6e9c87a3922d))
+
 ## [1.0.1](https://github.com/Comi9/finlance-tools/compare/v1.0.0...v1.0.1) (2023-01-04)
 
 
